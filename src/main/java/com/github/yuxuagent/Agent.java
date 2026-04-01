@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 public class Agent {
 
     private static final String API_URL = "https://api.openai.com/v1/chat/completions";
-    private static final String MODEL = "gpt-4o-mini";
+    private static final String MODEL = "gpt-5.4-mini";
     private static final String SYSTEM_PROMPT = "You are a coding agent. Use the bash tool to solve tasks.";
 
     private static final OkHttpClient httpClient = new OkHttpClient.Builder()
